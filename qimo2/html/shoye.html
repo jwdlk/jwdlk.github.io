@@ -1,0 +1,523 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<title>index</title>
+
+<style type="text/css">
+* {
+	
+    margin: 0;
+    padding: 0;
+}
+.menus.menus1 h1 {
+	vertical-align: sub;
+	float: left;
+	margin-top: 30px;
+	font-size: 54px;
+	text-transform: none;
+	font-family: "华文行楷";
+	font-weight: lighter;
+	color: #F89165;
+	
+}
+.banenr {
+	height: 80px;
+	width: auto;
+	background-color: #eb4537;
+}
+.banenr .banner-bg h3 {
+	font-size: 36px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 20px;
+	color: #f1f1f1;
+	margin-left: -30px;
+}
+
+.banner-bg {
+	margin: auto;
+	width: 1100px;
+	height: 80px;
+	padding-left: 0px;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.menus {
+	width: 1200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 100px;
+}
+.menus ul {
+	width: 700px;
+	position: relative;
+	float: right;
+	margin-top: 48px;
+	font-style: italic;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #ff5a5a;
+}
+.menus li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 24px;
+}
+.menus li:nth-child(2) {
+    color: #fff;
+}
+.menus .bg {
+	width: 100px;
+	height: 40px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-image: url(../images/index/ban.png);
+	
+}
+
+.tab {
+    width: 750px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    color: #888;
+    font-weight: bold;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	height: 150px;
+	padding-top: 50px;
+	color: #FFF;
+	width: 1460px;
+	margin-left: -183px;
+	background-color: #0F0F0F;
+}
+body {
+	margin: 0px;
+	background-color: #000000;
+}
+.slider {
+	background-color: #C99;
+	height: 620px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+body { 
+    width:auto;
+	margin: 0px;
+	padding: 0px;
+	background-color: #10131A;
+}
+.slider1 {
+	height:760px;
+	width: 1480px;
+	margin-top: 20px;
+	margin-right: 20px;
+
+	margin-left: -5px;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.welcome-text {
+	height: 200px;
+	width: 1466px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #545454;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 0sx;
+}
+.scroll-td-text {
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	font-size: 24px;
+}
+.introduce {
+	height: 40px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px;
+	padding-top: 8px;
+	border-bottom-width: 2px;
+	border-left-width: 10px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #F00;
+	border-left-color: #9F3;
+}
+.introduce-content {
+	height: 500px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F0EBDB;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+#img-introduce {
+	background-color: #CC0;
+	float: left;
+	height: 480px;
+	width: 620px;
+	margin: 10px;
+	
+}
+#text-introduce {
+	margin: 10px;
+	height: 480px;
+	width: 440px;
+	float: left;
+}
+.text-introducce {
+	height: 100px;
+	width: 440px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.scroll {
+	height: 420px;
+	width: 1482px;
+	margin-right: auto;
+	background-color: #333;
+	position: relative;
+	overflow: hidden;
+	margin-top: -10px;
+	margin-bottom: auto;
+	margin-left: -200px;
+}
+.ms-ex {
+	padding: 10px;
+	height: 440px;
+	width: 1100px;
+	border: 1px solid #000000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	
+}
+.text-box {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	
+}
+.ms-exhibition p {
+	height: 36px;
+	margin-top: 0px;
+	color: #FAFAFA;
+}
+
+	
+.ms-exhibition {
+	margin-right: auto;
+	font-size: 36px;
+	padding-top: 0px;
+	text-align: center;
+	height: 50px;
+	width: 1482px;
+	margin-left: -200px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	background-color: #333333;
+}
+#text-box1 {
+	background-color: #FF6;
+	border-radius: 20px;
+}
+#text-box3 {
+	background-color: #F03;
+	border-radius: 12px;
+}
+#text4 #text-box4 {
+	background-color: #6F6;
+	border-radius: 12px;
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+	 
+    }
+#text-box2 {
+	background-color: #09F;
+	border-radius: 12px;
+}
+.text-box-right {
+	float: left;
+	height:80px;
+	width: 420px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 25px;
+}
+    .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-top: 10px;
+	
+	
+	
+    }
+     
+.scroll-in {
+	height: 300px;
+	width: 1080px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	
+}
+			
+		
+
+.scroll-td {
+	height: 280px;
+	width: 280px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	text-indent: 0px;
+	color: aliceblue;
+}
+h1 {
+	line-height: 40px;
+	font-size: 40px;
+	color: aliceblue;
+}
+	.swiper-wrapper{
+		width: 1470px;
+	}
+	
+</style>
+
+<link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<embed src="../media/Painted Face.mp3" autostart="ture" hidden="ture" loop="-1" ShowPositionControls="false">
+
+   <div class="menus menus1">
+      <h1><img src="../images/index/b.png" width="100">
+      </h1>
+      <ul>
+        <div class="bg"></div>
+            <li><span><a href="index.html" target="blank">首页</a></span></li>
+		  <li><span><a href="noodle.html" target="blank">新闻</a></span></li>
+		  <li><span><a href="drink.html" target="blank">赛事</a></span></li>
+		  <li><span><a href="fired rice.html" target="blank">活动</a></span></li>
+		   <li><span><a href="bread.html" target="blank">武器库</a></span></li>
+            <li><span><a href="xz.html" target="blank">游戏壁纸</a></span></li>
+            <li><span><a href="dumplings.html" target="blank">视频中心</a></span></li>
+            
+            
+            
+           
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/index.js"></script>
+
+
+<div class="slider1">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#"><img src="../images/index/d.jpg" width="1470" height="833"/></a></div>
+      
+      
+     
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+
+
+
+
+
+</div>
+
+<hr />
+
+<div class="welcome-text">
+  <h1>&nbsp; &nbsp; &nbsp;游戏介绍&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </h1>
+  <h3>&nbsp;</h3>
+  <h3>
+CSGO 《反恐精英》这个模组于 1999 年 8月推出时，立刻 
+成了世界上玩家数量最多的线上PC动作游戏，使得游戏业为之一惊。"Valve 的 Doug lombardi 如是说道。"在过去的 12年中，它一直是世界上拥有玩家数量最多的游戏之一，引领着宽技的戏赛事，并且在全球创下了超过 2500 万套的游戏销量，CS: GO 承诺将增强屡获殊荣的 CS 系列之游戏体验，并把它带哈 PC 平台、次世代主机平台和 Mac 平台的玩家。”</h3>
+  
+</div>
+
+
+<div class="introduce-content">
+  <div id="img-introduce"><img src="../images/index/1.jpg" width="640" height="480" /> </div>
+	
+	
+  <div id="text-introduce" class="text-introduce">
+    <div class="text-introducce" id="text1">
+      
+      
+      <div class="text-box-right" id="box-right1">   &nbsp; &nbsp; &nbsp;CS.GO是以1999年的Counter Strike”为原型制作的新作，该作在团队竞技游戏模式的基础上加以开发。游戏将玩家分为CT与1营两队，每个队伍必须在一个地图上进行多回合的战斗。赢得回合的方法是达到该地图要求的目标，或者是完全消灭敌方玩家。
+《反恐精英:全球攻势》包含全新地图，角色与武器。目前游戏中有竞技模式、休闲模式、死亡竞赛、军备竞赛、烟破模式、跳狙飞人、搭档模式、头号特训等多种玩法。</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<div class="ms-ex">
+<div class="ms-exhibition">
+  <p>武器视图</p>
+</div>
+  <div class="scroll">
+    <marquee direction="right" behavior="alternate" scrolldelay="200" onmouseover="stop()" onmouseout="start()">
+      <table width="2400" border="0" cellspacing="20"  cellpadding="0">
+        <tr>
+          <td class="scroll-td"><img src="../images/index/USP消音器"/></td>
+          <td class="scroll-td"><img src="../images/index/P90.jpg.jpg"/></td>
+          <td class="scroll-td"><img src="../images/index/MP9.jpg"/></td>
+          <td class="scroll-td"><img src="../images/index/AUG.jpg"/></td>
+          <td class="scroll-td"><img src="../images/index/AWM.jpg"/></td>
+          <td class="scroll-td"><img src="../images/index/AK.jpg"/></td>
+          <td class="scroll-td"><img src="../images/index/匕首.jpg"/></td>
+          <td class="scroll-td"><img src="../images/index/沙漠之鹰.jpg"/></td>
+        </tr>
+        <tr>
+          <td class="scroll-td-text">USP消音器</td>
+          <td class="scroll-td-text">P90</td>
+          <td class="scroll-td-text">MP9</td>
+          <td class="scroll-td-text">AUG</td>
+          <td class="scroll-td-text">AWM</td>
+          <td class="scroll-td-text">AK-74</td>
+          <td class="scroll-td-text">匕首</td>
+          <td class="scroll-td-text">沙漠之鹰</td>
+        </tr>
+      </table>
+    </marquee>
+</div>
+ 
+
+<footer>
+  <div id="footer">
+	<p>2023-2030，版权所有CSGO-ZENG</p>
+			<p>联系作者QQ;2986439029 </p>
+	        <p1>作者：肇庆-彭于晏</p1>
+  </div>
+
+</footer>
+</div></body>
+</html>
